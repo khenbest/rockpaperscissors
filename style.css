@@ -1,0 +1,24 @@
+.rock-btn{
+    size: 90vh;
+    color: gray;
+    margin: 5vh 
+}
+.paper-btn{
+  size: 90vh;
+    color: white;
+    margin:5vh 
+}
+.scissors-btn{
+  size: 90vh;
+    color: black;
+    margin: 5vh 
+}
+p{
+    text-align: center;
+    color: black
+}
+#result{
+    text-align: center;
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
