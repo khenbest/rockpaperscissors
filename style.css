@@ -1,24 +1,48 @@
 .rock-btn{
     size: 90vh;
     color: gray;
-    margin: 5vh 
+    margin: 5vh; 
+    background: #000;
 }
 .paper-btn{
   size: 90vh;
     color: white;
-    margin:5vh 
+    margin:5vh; 
+    background: #000;
 }
 .scissors-btn{
   size: 90vh;
-    color: black;
-    margin: 5vh 
+    color: yellow;
+    margin: 5vh; 
+    background: #000;
+   
 }
-p{
+#activate{
     text-align: center;
-    color: black
+    margin: 0vh 0vh 5vh 0vh;
+    justify-content: center;
+    align-content: center;
+}
+#battle{
+    color: red;
+    background: #000;
 }
 #result{
     text-align: center;
     color: darkblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.player{
+      text-align: center;
+    margin: auto;
+    max-width: 960px;
+}
+.cpu{
+       text-align: center;
+    margin: auto;
+    max-width: 960px;
+}
+body{
+    background-color: gray;
 }
